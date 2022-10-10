@@ -1,0 +1,183 @@
+/* universal styles */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    transition: color 0.8s, background-color 0.8s;
+}
+
+a:hover {
+    color: white;
+    background-color: brown;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* banner and navbar */
+
+header {
+    border-bottom: 8px solid brown;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+ul {
+    margin: 10 auto;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    padding: 20px
+}
+
+ul li a {
+    padding: 10px;
+    color: brown;
+    text-decoration: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+    transition: color 0.8s, font-size 0.8s, background-color 0.8s;
+}
+
+ul li a:hover {
+    color: white;
+    font-size: 25px;
+    background-color: brown;
+}
+
+/* main styling */
+
+main {
+    padding: 150px 5%;
+}
+
+section {
+    border: 4px solid brown;
+    border-radius: 15px;
+    margin: 50px 5%;
+    background-color: white;
+}
+
+/* color section styling */
+
+div.color {
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+div#deep-purple {
+    background-color: rgb(48, 1, 30);
+    color: white;
+}
+
+div#cream {
+    background-color: rgb(215, 252, 212);
+    color: rgb(48, 1, 30);
+}
+
+div#sand {
+    background-color: rgb(182, 204, 161);
+    color:rgb(48, 1, 30);
+}
+
+div#flat-orange {
+    background-color: rgb(182, 143, 64);
+    color:rgb(48, 1, 30);
+}
+
+div#gray {
+    background-color: rgb(84, 84, 84);
+    color: rgb(182, 143, 64);
+}
+
+/* font section styling */
+
+div.font {
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    border-left: 2px black solid;
+    border-radius: 15px;
+}
+
+span.bold {
+    font-weight: 700;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+span.underline {
+    text-decoration: underline;
+}
+
+div#amatic {
+    font-family: "Amatic SC";
+    font-size: 18px;
+}
+
+div#silkscreen {
+    font-family: "Silkscreen";
+    font-size: 18px;
+}
+
+div#courier {
+    font-family: "Courier New";
+    font-size: 18px;
+}
+
+/* text styles styling */
+
+div.text p {
+    font-size: 16px;
+}
+
+div.text a {
+    background-color: white;
+    transition: font-size 0.8s, color 0.8s;
+}
+
+div.text a:hover {
+    color: sandybrown;
+    font-size: 26px;
+    background-color: brown;
+}
+
+/* footer styling */
+
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    z-index: 8;
+    border-top: 8px solid brown;
+    background-color: gray;
+}
+
+h6 {
+    text-align: center;
+}

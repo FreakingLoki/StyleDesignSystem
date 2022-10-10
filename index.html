@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jesse's Website Style Guide</title>
+</head>
+<body>
+
+    <!-- title  and quicknav bar-->
+    <header>
+
+        <h1>Jesse's Website Style Guide</h1>
+
+        <nav>        
+            <ul>
+                <li><a href="#colors"><span class="bold">Colors</span></a></li>
+                <li><a href="#fonts"><span class="bold">Fonts</span></a></li>
+                <li><a href="text-styles"><span class="bold">Text Styles</span></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+        <!-- this section shows the color palette for the site being designed-->
+        <!-- includes a name for the color (probably not one CSS will accept) and rgb values-->
+        <!-- also includes an idea of what part of the site will use that color-->
+        <section id="colors">
+
+            <h2>Colors</h2>
+
+            <div class="color" id="deep-purple">
+                <h3>Deep Purple</h3>
+                <h4>rgb(48, 1, 30)</h4>
+                <h5>Use for backgrounds</h5>
+            </div>
+
+            <div class="color" id="cream">
+                <h3>Cream</h3>
+                <h4>rgb(215, 252, 212)</h4>
+                <h5>Use for text</h5>
+            </div>
+
+            <div class="color" id="sand">
+                <h3>Sand</h3>
+                <h4>rgb(182, 204, 161)</h4>
+                <h5>Use for headers</h5>
+            </div>
+
+            <div class="color" id="flat-orange">
+                <h3>Flat Orange</h3>
+                <h4>rgb(182, 143, 64)</h4>
+                <h5>Use for borders</h5>
+            </div>
+
+            <div class="color" id="gray">
+                <h3>Gray</h3>
+                <h4>rgb(84, 84, 84)</h4>
+                <h5>Use for elements that react to being moused over</h5>
+            </div>
+
+
+        </section>
+
+
+        <!-- this section demonstrates the fonts to be used on the site being designed-->
+        <!-- demonstrates normal, bold, italic, and underlined examples of the text-->
+        <section id="fonts">
+
+            <h2>Fonts</h2>
+
+            <div class="font" id="amatic">
+                <h3>Amatic SC</h3>
+                <p>Example normal text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</p>
+                <p><span class="bold">Example bold text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span></p>
+                <p><span class="italic">Example italic text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span</p>
+                <p><span class="underline">Example underlined text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span</p>
+            </div>
+
+            <div class="font" id="silkscreen">
+                <h3>Silkscreen</h3>
+                <p>Example normal text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</p>
+                <p><span class="bold">Example bold text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span></p>
+                <p><span class="italic">Example italic text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span></p>
+                <p><span class="underline">Example underlined text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span</p>
+            </div>
+
+            <div class="font" id="courier">
+                <h3>Courier New</h3>
+                <p>Example normal text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</p>
+                <p><span class="bold">Example bold text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span></p>
+                <p><span class="italic">Example italic text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span></p>
+                <p><span class="underline">Example underlined text at 18px size. 0123456789? ! The quick brown fox jumps over the lazy dog.</span</p>
+            </div>
+
+
+
+        </section>
+
+
+        <!-- this section describes the specific styling for some elements -->
+        <!-- also shows reasoning when applicable -->
+        <!-- use the element as the very first thing under the opening <div> tag-->
+        <section id="text-styles">
+
+            <div class="text" id="h1">
+                <h1 style="text-align:left">h1 headers</h1>
+                <p>font-size: 48px;</p>
+                <p>text-align: center;</p>
+            </div>
+
+            <div class="text" id="h2">
+                <h2 style="text-align:left">h2 headers</h2>
+                <p>padding: 20px;</p>
+                <p>this is to make them stand off from the edges of their boxes better</p>
+                <p>text-align: center;</p>
+            </div>
+
+            <div class="text" id="a">
+                <a href="#"><h2 style="text-align:left">anchor elements</h2></a>
+                <p>text-decoration: none;</p>
+                <p>this is just because I think the standard underline style looks old-fashioned</p>
+                <p>color: brown;</p>
+                <p>transition: color 0.8s, background-color 0.8s;</p>
+                <p>transitions for hover effects</p>
+            </div>
+
+            <div class="text" id="ahover">
+                <a href="#"><h2 style="text-align:left">anchor elements on hover</h2></a>
+                <p>color: white;</p>
+                <p>background-color: brown;</p>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <h6><span class="italic">last updated the afternoon of 10/9/2022</span></h6>
+        <h6><span class="italic">created by Jesse Heald as a part of my <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> classes.</span></h6>
+    </footer>
+
+</body>
+</html>
